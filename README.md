@@ -2,7 +2,7 @@
 
 <div align="center">
   <h2>📢 Blog </h2>
-  <!-- LATEST_BLOG_POST -->
+[[클라우드] 10. Public Cloud (AWS, Azure, GCP)](https://j-ra1n.tistory.com/entry/%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-10-Public-Cloud-AWS-Azure-GCP)
 </div>
 
 <br></br>
