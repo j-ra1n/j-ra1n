@@ -1,21 +1,22 @@
-import feedparser, time
+import feedparser
 
-URL = "https://j-ra1n.tistory.com/rss"
-RSS_FEED = feedparser.parse(URL)
-MAX_POST = 5
+def fetch_latest_blog_post():
+    feed = feedparser.parse("https://j-ra1n.tistory.com/rss")
+    latest_post = feed.entries[0]
+    title = latest_post.title
+    link = latest_post.link
+    return title, link
 
-markdown_text = """
-## ✅ Latest Blog Post
+def update_readme(latest_post_title, latest_post_link):
+    with open("README.md", "r", encoding="utf-8") as file:
+        readme_content = file.readlines()
 
-"""  # list of blog posts will be appended here
+    with open("README.md", "w", encoding="utf-8") as file:
+        for line in readme_content:
+            if "<!-- LATEST_BLOG_POST -->" in line:
+                line = f"[{latest_post_title}]({latest_post_link})\n"
+            file.write(line)
 
-for idx, feed in enumerate(RSS_FEED['entries']):
-    if idx > MAX_POST:
-        break
-    else:
-        feed_date = feed['published_parsed']
-        markdown_text += f"[{time.strftime('%Y/%m/%d', feed_date)} - {feed['title']}]({feed['link']}) <br/>\n"
-        
-f = open("README.md", mode="w", encoding="utf-8")
-f.write(markdown_text)
-f.close()
+if __name__ == "__main__":
+    latest_post_title, latest_post_link = fetch_latest_blog_post()
+    update_readme(latest_post_title, latest_post_link)
