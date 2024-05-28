@@ -2,7 +2,7 @@
 
 <div align="center">
   <h2>📢 Blog </h2>
-  
+   <!-- LATEST_BLOG_POST -->
 
 <br></br>
 <div align="center">
