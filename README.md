@@ -3,7 +3,7 @@
 
 <br></br>
 <div align="center">
-  <h3>📚 Tech Stack 📚</h3>
+  <h2>📚 Tech Stack 📚</h2>
 
   <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white">
   <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white">
@@ -28,7 +28,7 @@
 
 <br></br>
 <div align="center">
-  <h3>📚 Project 📚</h3>
+  <h2>📚 Project 📚</h2>
   <p>실시간 주차 잔여석 시각화, 대자(Daeja)<br>
     <strong>Backend:</strong> SpringBoot / <strong>Frontend:</strong> Android</p>
     
@@ -42,7 +42,7 @@
 <br></br>
 
 <div align="center">
-<h3>🔥 Activity 🔥</h3>
+<h2>🔥 Activity 🔥</h2>
 
 
 <br></br>
