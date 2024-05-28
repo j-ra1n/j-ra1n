@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4  # 최신 버전으로 업데이트
+        uses: actions/checkout@v4
 
       - name: Update README
         run: |
