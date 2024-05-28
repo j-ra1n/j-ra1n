@@ -2,7 +2,8 @@
 
 <div align="center">
   <h2>📢 Blog </h2>
-   <!-- LATEST_BLOG_POST -->
+   [![Tistory's Card](https://github-readme-tistory-card.vercel.app/api/badge?name=j-ra1n&postId=default&theme=tistory)](https://github.com/loosie/github-readme-tistory-card)
+</div>
 
 <br></br>
 <div align="center">
