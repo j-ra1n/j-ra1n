@@ -20,3 +20,4 @@ def update_readme(latest_post_title, latest_post_link):
 if __name__ == "__main__":
     latest_post_title, latest_post_link = fetch_latest_blog_post()
     update_readme(latest_post_title, latest_post_link)
+ 
