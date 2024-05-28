@@ -15,9 +15,9 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v4  # Node.js 20 지원하는 버전으로 업데이트
+      uses: actions/checkout@v4
     - name: Set up Python 3.10
-      uses: actions/setup-python@v4  # Node.js 20 지원하는 버전으로 업데이트
+      uses: actions/setup-python@v4
       with:
         python-version: "3.10"
     - name: Install dependencies
@@ -32,10 +32,8 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
       run: |
         git pull
-        git add .
-        git diff
+        git add README.md
         git config --local user.email "j_ra1n@naver.com"
         git config --local user.name "j-ra1n"
         git commit -m "Updating Blog Posts" || echo "No changes to commit"
         git push https://x-access-token:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
-
