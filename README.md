@@ -1,8 +1,8 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:E34C26,10:DA5B0B,30:C6538C,75:3572A5,100:A371F7&height=100&section=header&text=&fontSize=0" width="100%"/>
 
 <div align="center">
-  <h2>📢 Blog </h2>
-[[클라우드] 10. Public Cloud (AWS, Azure, GCP)](https://j-ra1n.tistory.com/entry/%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-10-Public-Cloud-AWS-Azure-GCP)
+  <h2>📢 Latest Blog Post </h2>
+<!-- LATEST_BLOG_POSTS -->
 
 
 
