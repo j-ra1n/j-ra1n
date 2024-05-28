@@ -3,13 +3,6 @@
 <div align="center">
   <h2>📢 Latest Blog Post </h2>
 <!-- LATEST_BLOG_POSTS -->
-<a href="https://j-ra1n.tistory.com/entry/%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-10-Public-Cloud-AWS-Azure-GCP" target="_blank">[클라우드] 10. Public Cloud (AWS, Azure, GCP)</a>
-<a href="https://j-ra1n.tistory.com/entry/%EC%8B%9C%ED%81%90%EC%96%B4-%EC%BD%94%EB%94%A9-XSS%ED%81%AC%EB%A1%9C%EC%8A%A4-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8C%85" target="_blank">[시큐어 코딩] XSS(크로스 사이트 스크립팅)</a>
-<a href="https://j-ra1n.tistory.com/entry/%EC%8B%9C%ED%81%90%EC%96%B4-%EC%BD%94%EB%94%A9-XPath-%EC%82%BD%EC%9E%85Injection" target="_blank">[시큐어 코딩] XPath 삽입(Injection)</a>
-- [[클라우드] 10. Public Cloud (AWS, Azure, GCP)](https://j-ra1n.tistory.com/entry/%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-10-Public-Cloud-AWS-Azure-GCP)
-- [[시큐어 코딩] XSS(크로스 사이트 스크립팅)](https://j-ra1n.tistory.com/entry/%EC%8B%9C%ED%81%90%EC%96%B4-%EC%BD%94%EB%94%A9-XSS%ED%81%AC%EB%A1%9C%EC%8A%A4-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8C%85)
-- [[시큐어 코딩] XPath 삽입(Injection)](https://j-ra1n.tistory.com/entry/%EC%8B%9C%ED%81%90%EC%96%B4-%EC%BD%94%EB%94%A9-XPath-%EC%82%BD%EC%9E%85Injection)
-
 
 
 
