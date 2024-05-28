@@ -18,7 +18,7 @@ def update_readme(posts):
             if "<!-- LATEST_BLOG_POSTS -->" in line:
                 file.write("<!-- LATEST_BLOG_POSTS -->\n")
                 for title, link in posts:
-                    file.write(f'<a href="{link}" target="_blank">{title}</a>\n')
+                    file.write(f'<a href="{link}" target="_blank">{title}</a><br>\n')
             else:
                 file.write(line)
 
