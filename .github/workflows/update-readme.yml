@@ -2,7 +2,7 @@ name: Update README
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '0 * * * *'  # 매시간마다 실행
   workflow_dispatch:
 
 jobs:
@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4  # 최신 버전으로 업데이트
 
       - name: Update README
         run: |
@@ -28,6 +28,9 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          echo "Staging changes..."
           git add README.md
-          git commit -m 'Update README with latest blog post'
-          git push origin main  # 브랜치 이름 명시
+          echo "Committing changes..."
+          git commit -m 'Update README with latest blog post' || echo "No changes to commit"
+          echo "Pushing changes..."
+          git push https://x-access-token:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
