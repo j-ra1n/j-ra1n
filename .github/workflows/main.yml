@@ -3,14 +3,15 @@ name: Python application
 on:
   push:
     branches: [ "main" ]
+    paths:
+      - 'README.md'  # README.md 파일이 변경되었을 때만 트리거
   pull_request:
     branches: [ "main" ]
-  schedule:
-      - cron: "0 0 */1 * *"
+    paths:
+      - 'README.md'  # README.md 파일이 변경되었을 때만 트리거
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
