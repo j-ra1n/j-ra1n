@@ -13,9 +13,9 @@ def fetch_latest_blog_posts(limit=1):
     return posts
 
 def trigger_jenkins():
-    jenkins_url = 'http://<your-jenkins-url>/job/<your-job-name>/build'
-    jenkins_user = '<your-jenkins-username>'
-    jenkins_token = '<your-jenkins-api-token>'
+    jenkins_url = 'http://localhost:8080/job/Jenkins_readme/build'
+    jenkins_user = '이정우'
+    jenkins_token = '115453658d957b826f819d28e0b0d27b59'
     
     response = requests.post(jenkins_url, auth=(jenkins_user, jenkins_token))
     if response.status_code == 201:
