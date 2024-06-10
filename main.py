@@ -1,27 +1,40 @@
 import feedparser
+import requests
+import time
 
-def fetch_latest_blog_posts(limit=3):
+def fetch_latest_blog_posts(limit=1):
     feed = feedparser.parse("https://j-ra1n.tistory.com/rss")
     posts = []
     for entry in feed.entries[:limit]:
         title = entry.title
         link = entry.link
-        posts.append((title, link))
+        published = entry.published
+        posts.append((title, link, published))
     return posts
 
-def update_readme(posts):
-    with open("README.md", "r", encoding="utf-8") as file:
-        readme_content = file.readlines()
+def trigger_jenkins():
+    jenkins_url = 'http://<your-jenkins-url>/job/<your-job-name>/build'
+    jenkins_user = '<your-jenkins-username>'
+    jenkins_token = '<your-jenkins-api-token>'
+    
+    response = requests.post(jenkins_url, auth=(jenkins_user, jenkins_token))
+    if response.status_code == 201:
+        print("Jenkins job triggered successfully")
+    else:
+        print(f"Failed to trigger Jenkins job: {response.status_code}")
 
-    with open("README.md", "w", encoding="utf-8") as file:
-        for line in readme_content:
-            if "<!-- LATEST_BLOG_POSTS -->" in line:
-                file.write("<!-- LATEST_BLOG_POSTS -->\n")
-                for title, link in posts:
-                    file.write(f'<a href="{link}" target="_blank">{title}</a><br>\n')
-            else:
-                file.write(line)
+def main():
+    last_published = None
+    
+    while True:
+        latest_posts = fetch_latest_blog_posts()
+        if latest_posts:
+            title, link, published = latest_posts[0]
+            if last_published != published:
+                print(f"New post detected: {title}")
+                trigger_jenkins()
+                last_published = published
+        time.sleep(600)  # 10분마다 검사
 
 if __name__ == "__main__":
-    latest_posts = fetch_latest_blog_posts()
-    update_readme(latest_posts)
+    main()
