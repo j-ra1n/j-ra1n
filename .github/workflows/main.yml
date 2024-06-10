@@ -9,6 +9,8 @@ on:
     branches: [ "main" ]
     paths:
       - 'README.md'  # README.md 파일이 변경되었을 때만 트리거
+  repository_dispatch:
+    types: [tistory-update]
 
 jobs:
   build:
@@ -30,11 +32,11 @@ jobs:
         python main.py
     - name: Update README.md file
       env:
-        GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         git pull
         git add README.md
         git config --local user.email "j_ra1n@naver.com"
         git config --local user.name "j-ra1n"
         git commit -m "Updating Blog Posts" || echo "No changes to commit"
-        git push https://x-access-token:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
+        git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
