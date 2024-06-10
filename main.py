@@ -2,7 +2,7 @@ import feedparser
 import requests
 import time
 
-def fetch_latest_blog_posts(limit=1):
+def fetch_latest_blog_posts(limit=3):
     feed = feedparser.parse("https://j-ra1n.tistory.com/rss")
     posts = []
     for entry in feed.entries[:limit]:
