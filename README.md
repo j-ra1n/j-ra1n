@@ -8,7 +8,7 @@
 <a href="https://j-ra1n.tistory.com/entry/%EC%8B%9C%ED%81%90%EC%96%B4-%EC%BD%94%EB%94%A9-%ED%8C%8C%EC%9D%BC-%EC%97%85%EB%A1%9C%EB%93%9C%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C-%EC%B7%A8%EC%95%BD%EC%A0%90" target="_blank">[시큐어 코딩] 파일 업로드/다운로드 취약점</a><br>
 
 
-  
+   
 </div>
 
 <br></br>
