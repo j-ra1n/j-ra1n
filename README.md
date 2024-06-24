@@ -39,6 +39,9 @@
     
   <p>함께 성장하는 개발자들의 공간, 깃터디(Gitudy)<br>
     <strong>Backend:</strong> SpringBoot / <strong>Frontend:</strong> Android</p>
+
+   <p>MZ 세대들을 위한 커뮤니티 웹 서비스, 절약 왕국<br>
+    <strong>Backend:</strong> SpringBoot / <strong>Frontend:</strong> React</p>
 </div>
 
 <br><br>
