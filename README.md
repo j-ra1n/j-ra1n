@@ -31,8 +31,8 @@
 <br><br>
 <div align="center">
   <h1>📚 Project 📚</h1>
-  <p>실시간 주차 잔여석 시각화, 대자(Daeja)<br>
-    <strong>Backend:</strong> SpringBoot / <strong>Frontend:</strong> Android</p>
+ <!-- <p>실시간 주차 잔여석 시각화, 대자(Daeja)<br>
+    <strong>Backend:</strong> SpringBoot / <strong>Frontend:</strong> Android</p> -->
     
   <p>개인 맞춤형 구인구직 플랫폼, 다잡아(DajobA)<br>
     <strong>Backend:</strong> SpringBoot / <strong>Frontend:</strong> React</p>
