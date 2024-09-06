@@ -1,14 +1,17 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:E34C26,10:DA5B0B,30:C6538C,75:3572A5,100:A371F7&height=100&section=header&text=&fontSize=0" width="100%"/>
 
 <div align="center">
+
+  ![j-ra1n's GitHub stats](https://github-readme-stats.vercel.app/api?username=j-ra1n&show_icons=true&theme=dracula)
+  
   <h2>📢 Latest Blog Post </h2>
 <!-- LATEST_BLOG_POSTS -->
 <a href="https://j-ra1n.tistory.com/entry/Jenkins-%EC%A0%A0%ED%82%A8%EC%8A%A4-%ED%85%8C%EC%8A%A4%ED%8A%B8" target="_blank">[Jenkins] 젠킨스 테스트</a><br>
 <a href="https://j-ra1n.tistory.com/entry/%EC%8B%9C%ED%81%90%EC%96%B4-%EC%BD%94%EB%94%A9-%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0-%EC%A1%B0%EC%9E%91%EA%B3%BC-%EC%9E%98%EB%AA%BB%EB%90%9C-%EC%A0%91%EA%B7%BC%EC%A0%9C%EC%96%B4-%EC%B7%A8%EC%95%BD%EC%A0%90" target="_blank">[시큐어 코딩] 파라미터 조작과 잘못된 접근제어 취약점</a><br>
 <a href="https://j-ra1n.tistory.com/entry/%EC%8B%9C%ED%81%90%EC%96%B4-%EC%BD%94%EB%94%A9-%ED%8C%8C%EC%9D%BC-%EC%97%85%EB%A1%9C%EB%93%9C%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C-%EC%B7%A8%EC%95%BD%EC%A0%90" target="_blank">[시큐어 코딩] 파일 업로드/다운로드 취약점</a><br>
+  
 
 
-   
 </div>
 
 <br></br>
