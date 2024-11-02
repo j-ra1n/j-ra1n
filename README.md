@@ -51,8 +51,8 @@
 <div align="center">
   <h2>🔥 Education & Activity 🔥</h2>
 
-  <p>2018.03 ~ 2022.02&nbsp;&nbsp;&nbsp;00대학교 경영학과<br></p>
-  <p>2022.03 ~ 2025.02&nbsp;&nbsp;&nbsp;00대학교 소프트웨어학과<br></p>
+  <p>2018.03 ~ 2022.02&nbsp;&nbsp;&nbsp;한신대학교 경영학과<br></p>
+  <p>2022.03 ~ 2025.02&nbsp;&nbsp;&nbsp;단국대학교 소프트웨어학과<br></p>
   <p>2022.09 ~ 12.18&nbsp;&nbsp;&nbsp;00대학교 Aegis 알고리즘 스터디<br></p>
   <p>2023.03 ~ 06.12&nbsp;&nbsp;&nbsp;실시간 주차 잔여석 시각화, 대자(Daeja)<br></p>
   <p>2023.09 ~ 12.18&nbsp;&nbsp;&nbsp;개인 맞춤형 구인구직 플랫폼, 다잡아(DajobA)<br></p>
