@@ -63,7 +63,7 @@
     <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" width="150" alt="Play Store" style="vertical-align: middle;"/>
   </a>
 </p>
-  <p>2024.07 ~ ing &nbsp;&nbsp;&nbsp; 프로그래머스 클라우드 기반 백엔드 엔지니어링, 데브코스</p>
+  <p>2024.07 ~ 12.13 &nbsp;&nbsp;&nbsp; 프로그래머스 클라우드 기반 백엔드 엔지니어링, 데브코스</p>
 </div>
 
 <br><br>
