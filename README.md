@@ -6,7 +6,7 @@
   
   <h2>📢 Latest Blog Post </h2>
 <!-- LATEST_BLOG_POSTS -->
-<a href="https://j-ra1n.tistory.com/entry/Public-CloudAWS-On-premise%ED%99%88%EC%84%9C%EB%B2%84-%EA%B5%AC%EC%B6%95-%EC%A0%84%ED%99%98" target="_blank"> Public Cloud -> On-promise(홈서버) 구축 전환 </a><br>
+<a href="https://j-ra1n.tistory.com/entry/Public-CloudAWS-On-premise%ED%99%88%EC%84%9C%EB%B2%84-%EA%B5%AC%EC%B6%95-%EC%A0%84%ED%99%98" target="_blank"> [홈서버 구축] Public Cloud -> On-promise(홈서버) 구축 전환 </a><br>
 <a href="https://j-ra1n.tistory.com/entry/Jenkins-%EC%A0%A0%ED%82%A8%EC%8A%A4-%ED%85%8C%EC%8A%A4%ED%8A%B8" target="_blank">[Jenkins] 젠킨스 테스트</a><br>
 <a href="https://j-ra1n.tistory.com/entry/%EC%8B%9C%ED%81%90%EC%96%B4-%EC%BD%94%EB%94%A9-%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0-%EC%A1%B0%EC%9E%91%EA%B3%BC-%EC%9E%98%EB%AA%BB%EB%90%9C-%EC%A0%91%EA%B7%BC%EC%A0%9C%EC%96%B4-%EC%B7%A8%EC%95%BD%EC%A0%90" target="_blank">[시큐어 코딩] 파라미터 조작과 잘못된 접근제어 취약점</a><br>
   
