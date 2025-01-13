@@ -1,9 +1,10 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:E34C26,10:DA5B0B,30:C6538C,75:3572A5,100:A371F7&height=100&section=header&text=&fontSize=0" width="100%"/>
 
-## 개발 Portfolio
-[포트폴리오](https://halved-porch-676.notion.site/10607d594d6180dc85b7eb2c0d5555fe)
 
 <div align="center">
+
+## 🖥️ Portfolio
+[포트폴리오](https://halved-porch-676.notion.site/10607d594d6180dc85b7eb2c0d5555fe) <br></br>
 
   ![j-ra1n's GitHub stats](https://github-readme-stats.vercel.app/api?username=j-ra1n&show_icons=true&theme=dracula)
   
