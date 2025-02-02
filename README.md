@@ -6,7 +6,7 @@
 ## 🖥️ Portfolio
 [포트폴리오](https://halved-porch-676.notion.site/10607d594d6180dc85b7eb2c0d5555fe) <br></br>
 
-  ![j-ra1n's GitHub stats](https://github-readme-stats.vercel.app/api?username=j-ra1n&show_icons=true&theme=dracula)
+
   
   <h2>📢 Latest Blog Post </h2>
 <!-- LATEST_BLOG_POSTS -->
