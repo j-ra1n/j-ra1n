@@ -50,6 +50,10 @@
 
    <p>MZ 세대들을 위한 커뮤니티 웹 서비스, 절약 왕국<br>
     <strong>Backend:</strong> SpringBoot / <strong>Frontend:</strong> React</p>
+
+   <p>소중한 장소를 게임을 통해 공유할 수 있는 서비스, 어데고?!<br>
+    <strong>Backend:</strong> SpringBoot / <strong>Frontend:</strong> React</p>
+
 </div>
 
 <br><br>
