@@ -10,6 +10,7 @@
   
   <h2>📢 Latest Blog Post </h2>
 <!-- LATEST_BLOG_POSTS -->
+<a href="https://j-ra1n.tistory.com/entry/TensorFlow-NSFW-%EB%B6%80%EC%A0%81%EC%A0%88%ED%95%9C-%EC%BB%A8%ED%85%90%EC%B8%A0-%EA%B0%90%EC%A7%80"> [TensorFlow - NSFW] 부적절한 컨텐츠 감지 </a><br>
 <a href="https://j-ra1n.tistory.com/entry/%EA%B9%83%ED%97%88%EB%B8%8C-%EC%95%A1%EC%85%98-CICD-self-hosted-Runner" target="_blank"> [깃허브 액션 - CI&CD] Self-hosted Runner </a><br>
 <a href="https://j-ra1n.tistory.com/entry/Public-CloudAWS-On-premise%ED%99%88%EC%84%9C%EB%B2%84-%EA%B5%AC%EC%B6%95-%EC%A0%84%ED%99%98" target="_blank"> [홈서버 구축] Public Cloud -> On-promise(홈서버) 구축 전환 </a><br>
 <a href="https://j-ra1n.tistory.com/entry/Jenkins-%EC%A0%A0%ED%82%A8%EC%8A%A4-%ED%85%8C%EC%8A%A4%ED%8A%B8" target="_blank">[Jenkins] 젠킨스 테스트</a><br>
