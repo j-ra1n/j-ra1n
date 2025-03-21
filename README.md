@@ -73,6 +73,9 @@
 </p>
   <p>2024.07 ~ 12.13 &nbsp;&nbsp;&nbsp; 프로그래머스 클라우드 기반 백엔드 엔지니어링, 데브코스</p>
   <p>2024.09 ~ 2025.02 &nbsp;&nbsp;&nbsp; 소중한 장소를 게임을 통해 공유할 수 있는 서비스, 어데고?!(Urdego?!)</p>
+      <a href="https://apps.apple.com/app/idYOUR_APP_ID" style="display: inline-block; margin-left: 10px; vertical-align: middle;">
+      <img src="[https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg](https://apps.apple.com/kr/app/%EC%96%B4%EB%8D%B0%EA%B3%A0/id6742886083)" width="135" alt="App Store" style="vertical-align: middle;"/>
+    </a>
 </div>
 
 <br><br>
